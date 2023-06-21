@@ -1,0 +1,30 @@
+
+
+
+[TIME_DATE]
+command=date +" %a, %d %b - %H:%M:%S"
+interval=1
+
+
+[separator]
+
+[WIFI]
+full_text=󱞐
+command=~/.config/i3blocks/wifi.sh
+interval=repeat
+
+[BATTERY]
+command=~/.config/i3blocks/bat.sh
+interval=repeat
+
+
+[SOUND_BURST]
+command=~/.config/i3blocks/sound_burst.sh
+interval=once
+
+[SOUND]
+full_text= 🔇:  0% 
+command=~/.config/i3blocks/sound.sh
+interval=repeat
+signal=1
+
